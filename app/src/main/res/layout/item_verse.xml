@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvArabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:text="@string/bismillah_arab"
+        android:textIsSelectable="true"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTransliteration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvArabic"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/bismillah_terjemahan"
+        android:textIsSelectable="true"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTerjemahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTransliteration"
+        android:layout_margin="5dp"
+        android:text="@string/bismillah_terjemahan"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
